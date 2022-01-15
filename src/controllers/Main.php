@@ -1,9 +1,20 @@
 <?php
 
+
 class Main {
 
     public function test() {
-        echo "je suis la fonction test dans le controller main étendu";
+        var_dump("kinda sad");
+    }
+
+    public function products()
+    {
+        var_dump("this is products");
+    }
+
+    public function projects()
+    {
+        var_dump("projects");
     }
 
 }
